@@ -13,3 +13,29 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+// plusOne
+
+describe('plusOne', function () {
+    it('should be a defined function', function () {
+        expect(typeof plusOne).toBe("function")
+    });
+    it('should return a number', function () {
+        expect(typeof plusOne()).toBe("number")
+    });
+    it('should return 5 when passed 4', function () {
+        expect(plusOne(4)).toBe(5);
+    });
+    it('should return 5 when passed 6', function () {
+        expect(plusOne(5)).toBe(6);
+    });
+
+})
+describe('sayHello', function (){
+    it('should be a defined function ', function () {
+       expect(typeof sayHello).toBe("function")
+    });
+    it('should ', function () {
+        
+    });
+})
