@@ -22,3 +22,11 @@ function sayHello(x) {
 function isFive(num) {
     return parseFloat(num) === 5;
 }
+function isEven(num){
+    if (num % 2 === 0 ){
+        return true;
+    }else{
+        return false;
+    }
+
+}
