@@ -11,5 +11,9 @@ function plusOne(num) {
 }
 
 function sayHello(x) {
-    return "Hello," + x + "!";
+    if (x === true){
+        return "Hello, World!"
+    } else if (x === false){
+        return "Hello, World!"
+    }return "Hello, " + x + "!";
 }
