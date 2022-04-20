@@ -11,9 +11,14 @@ function plusOne(num) {
 }
 
 function sayHello(x) {
-    if (x === true){
+    if (x === true) {
         return "Hello, World!"
-    } else if (x === false){
+    } else if (x === false) {
         return "Hello, World!"
-    }return "Hello, " + x + "!";
+    }
+    return "Hello, " + x + "!";
+}
+
+function isFive(num) {
+    return parseFloat(num) === 5;
 }
